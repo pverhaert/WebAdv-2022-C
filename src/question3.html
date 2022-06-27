@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" />
+        <title>Question 3: Images of the World</title>
+        <style>
+            .outline {
+                display: flex;
+                gap: 14px;
+            }
+            .outline > * {
+                flex-grow: 1;
+            }
+            button:active {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body class="question3">
+        <main class="container">
+            <h1>Images of the World</h1>
+            <hr>
+            <div class="outline">
+                <input type="text" id="city" placeholder="Enter a keyword to search" />
+                <select id="images">
+                    <option value="">Number of images</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                </select>
+                <button type="button" id="search">Search</button>
+            </div>
+            <hr>
+            <figure class="row">
+                <!-- Show X random images of the city-->
+            </figure>
+        </main>
+    </body>
+</html>
